@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EmpolyeeMangmentSystem.TaskCreation">
+
+    <LinearLayout
+        android:id="@+id/taskCreationLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/task_name_text"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Task Name:"
+            android:textColor="@android:color/background_dark"
+            android:textSize="17sp" />
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/task_name_text_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:errorEnabled="true">
+
+            <EditText
+                android:id="@+id/task_name_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:inputType="text" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/task_deadline_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deadline:"
+            android:textColor="@android:color/background_dark"
+            android:textSize="17sp" />
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/task_deadline_text_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:errorEnabled="true">
+
+            <EditText
+                android:id="@+id/task_deadline_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/task_name_text"
+                android:layout_marginTop="7dp"
+                android:inputType="none"
+                android:cursorVisible="false"
+                android:clickable="false"
+                android:focusableInTouchMode="false"
+                android:focusable="false"
+                android:onClick="onDeadlinePick"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/department_description_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Enter description:"
+            android:textColor="@android:color/background_dark"
+            android:textSize="17sp"
+
+            />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/task_description_text_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:errorEnabled="true">
+
+            <EditText
+                android:id="@+id/department_description_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="21dp"
+                android:gravity="top|start"
+                android:inputType="textMultiLine" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/choose_department_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Choose Department"
+            android:textColor="@android:color/background_dark"
+            android:textSize="17sp" />
+
+        <Spinner
+            android:id="@+id/departmentDropDown"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:contentDescription="Select Department"
+            android:gravity="start"
+            android:saveEnabled="false"
+            android:textAlignment="textStart"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose Employees :"
+            android:textColor="@android:color/background_dark"
+            android:textSize="17sp"/>
+
+        <ListView
+            android:id="@+id/employees_List"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:nestedScrollingEnabled="true"
+            android:theme="@android:style/Widget.ListView" />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

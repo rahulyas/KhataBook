@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+<!-- Transction CardView-->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/transction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="transaction_chat"
+        android:layout_margin="10dp"
+        app:cardBackgroundColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeWidth="2dp"
+        app:cardCornerRadius="15dp"
+        app:cardUseCompatPadding="true"
+        app:cardElevation="5dp"
+        android:tag="0">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+<!-- Customer Image -->
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/customer_image"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_alignParentLeft="true"
+                android:layout_margin="7dp"
+                android:src="@drawable/r"/>
+
+
+<!-- Customer Name -->
+            <TextView
+                android:id="@+id/customername"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/customer_image"
+                android:maxWidth="140dp"
+                android:layout_marginLeft="10dp"
+                android:text="CustomerName"
+                android:textColor="@color/black"
+                android:textSize="14sp"/>
+<!-- Customer PhoneNumber-->
+
+            <TextView
+                android:id="@+id/customerphonenumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@+id/customername"
+                android:layout_toRightOf="@+id/customer_image"
+                android:gravity="end"
+                android:layout_marginTop="3dp"
+                android:text="PhoneNumber"
+                android:textColor="@color/black"
+                android:textSize="10sp"/>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="15dp">
+<!-- Transaction Amount Credit -->
+                <TextView
+                    android:id="@+id/transactionamount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Credit "
+                    android:textColor="@color/sucess"
+                    android:textSize="20sp"/>
+<!-- Icon Of Rs-->
+                <ImageView
+                    android:id="@+id/transactionamountsymbol"
+                    android:layout_width="20dp"
+                    android:layout_height="15dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_toLeftOf="@id/transactionamount"
+                    android:src="@drawable/rs_symbol1"
+                    android:layout_marginTop="7dp"/>
+
+            </LinearLayout>
+        </RelativeLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>

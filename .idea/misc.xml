@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/drawable-v24/ic_eye_solid.xml" value="0.1315" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.132" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/drawable/arrow_back.xml" value="0.1315" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/drawable/customer_dashboard_bottom_sheet_contact_dialog.xml" value="0.132" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/drawable/employee_gradient.xml" value="0.134" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.132" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.1035" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.1" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/drawable/ic_baseline_message_24.xml" value="0.1035" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.132" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/drawable/ic_baseline_save.xml" value="0.1395" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/drawable/ic_baseline_save_24.xml" value="0.1395" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.132" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/drawable/ic_baseline_supervised_user_circle_24.xml" value="0.132" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/drawable/ic_eye_slash_solid.xml" value="0.1315" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/drawable/ic_eye_solid.xml" value="0.1315" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/drawable/ic_launcher_background.xml" value="0.132" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/drawable/ic_login_hero.xml" value="0.132" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/drawable/itemtakergradent.xml" value="0.145" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/drawable/profilebackgroundcolor.xml" value="0.132" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/drawable/progress_round.xml" value="0.132" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/drawable/rectangle.xml" value="0.132" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/drawable/rectangle1.xml" value="0.1395" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/drawable/rectangle2.xml" value="0.1395" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/drawable/rectangle3.xml" value="0.1395" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/drawable/rectangle4.xml" value="0.134" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/drawable/round1.xml" value="0.1" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/drawable/roundcorner.xml" value="0.129" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/drawable/searchview_border.xml" value="0.145" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/drawable/side_nav_bar.xml" value="0.132" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/drawable/toolbarcolor.xml" value="0.132" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/layout/activity_1.xml" value="0.203125" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/layout/activity_department.xml" value="0.25" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/layout/activity_department2.xml" value="0.22" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/layout/activity_edit_formdashboard.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/layout/activity_employee.xml" value="0.25" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/layout/activity_employee2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/layout/activity_formdashboard.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/layout/activity_home.xml" value="0.14266304347826086" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/layout/activity_item_taker.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/layout/activity_login.xml" value="0.14266304347826086" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/layout/activity_loginkhatabook.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/layout/activity_main.xml" value="0.14266304347826086" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/layout/activity_otp.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/layout/activity_passcode.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/layout/activity_profile.xml" value="0.14266304347826086" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/layout/activity_register.xml" value="0.14266304347826086" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/layout/activity_register_passcode.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/layout/activity_registraction.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/layout/activity_starting.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/layout/activity_task.xml" value="0.22" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/layout/activity_task2.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/layout/activity_transaction_alert.xml" value="0.33" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/layout/activity_transaction_chat.xml" value="0.25" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/layout/activity_transaction_list.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/layout/activity_welcome.xml" value="0.14266304347826086" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/layout/app_bar_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/layout/content_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/layout/custom_dashboard_bottom_sheet_contact_dialog.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/layout/dashboardcontact_row.xml" value="0.25" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/layout/dashboardtransaction_row.xml" value="0.25" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/layout/desgin.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/layout/employee_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/layout/fragment_customer_dashboard.xml" value="0.40370370370370373" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/layout/fragment_dep.xml" value="0.25" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/layout/fragment_department.xml" value="0.203125" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/layout/fragment_department_list.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/layout/fragment_edit_formdashboard.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/layout/fragment_empolyee_starting.xml" value="0.1" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/layout/fragment_evaluation.xml" value="0.16673792218896966" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/layout/fragment_gallery.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/layout/fragment_home.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/layout/fragment_home_dashboard.xml" value="0.203125" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/layout/fragment_slideshow.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/layout/fragment_starting_page.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/layout/fragment_task.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/layout/fragment_transaction_dashboard.xml" value="0.25" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/layout/gallery_fragment.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/layout/item_list.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/layout/nav_header_home.xml" value="0.3268365817091454" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/layout/notification.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/layout/progress_dialog.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/layout/progressround.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/layout/sidebar_header.xml" value="0.33" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/layout/task.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/layout/task_creation_row.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/layout/task_list.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/layout/tasks_layout.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/layout/transaction_chat_bottom_sheet_credit_dialog.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/layout/transaction_chat_bottom_sheet_debit_dialog.xml" value="0.25" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/layout/transaction_chat_row.xml" value="0.5" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/layout/transaction_row.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/menu/activity_main_drawer.xml" value="0.25" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/menu/bottom_nav.xml" value="0.22" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/menu/home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/menu/menu_department.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/menu/menu_employee.xml" value="0.43106796116504853" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/menu/menu_task.xml" value="0.1675929884566054" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/menu/menu_task_creation.xml" value="0.1814814814814815" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/menu/popup_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Yash/AndroidStudioProjects/Application/app/src/main/res/menu/side_nav.xml" value="0.203125" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

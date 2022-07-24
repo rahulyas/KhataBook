@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.application">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Application">
+        <activity
+            android:name=".EmpolyeeMangmentSystem.StartingActivity"
+            android:exported="false">
+
+        </activity>
+        <activity
+            android:name=".Task"
+            android:exported="false"
+            tools:ignore="MissingClass" />
+        <activity
+            android:name=".EmpolyeeMangmentSystem.TaskActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EmpolyeeMangmentSystem.EmployeeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EmpolyeeMangmentSystem.DepartmentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EmpolyeeMangmentSystem.Employee"
+            android:exported="false" />
+        <activity
+            android:name=".EmpolyeeMangmentSystem.Department"
+            android:exported="false">
+
+        </activity>
+        <activity
+            android:name=".khatabook.register_passcode"
+            android:exported="false" />
+        <activity
+            android:name=".khatabook.passcode"
+            android:exported="false" />
+        <activity
+            android:name=".khatabook.otp"
+            android:exported="false" />
+        <activity
+            android:name=".khatabook.registraction"
+            android:exported="false" />
+        <activity
+            android:name=".khatabook.Transaction_list"
+            android:exported="false" />
+        <activity
+            android:name=".khatabook.loginkhatabook"
+            android:exported="false" />
+        <activity
+            android:name=".khatabook.Transaction_chat"
+            android:exported="false" />
+        <activity
+            android:name=".khatabook.formdashboard"
+            android:exported="false" />
+        <activity
+            android:name=".khatabook.Activity1"
+            android:exported="false" />
+        <activity
+            android:name=".Fragment.ItemTaker"
+            android:exported="false"
+            android:theme="@style/Theme.Application.NoActionBar" />
+        <activity
+            android:name=".Fragment.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".Welcome"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+
+        <service
+            android:name=".FirebaseNotification.FirebaseMessageService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

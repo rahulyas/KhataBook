@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EmpolyeeMangmentSystem.TaskActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/desc_task_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Start Date: "
+                android:textColor="#2e79f2"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/taskdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/desc_task_date"
+                android:text="1/8/2018"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:id="@+id/dec_deadline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/taskdate"
+                android:layout_marginTop="20dp"
+                android:text="DeadLine: "
+                android:textColor="#2e79f2"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/deadline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dec_deadline"
+                android:text="1/8/2018"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/deadline"
+                android:layout_marginTop="20dp"
+                android:text="Job Description: "
+                android:textColor="#2e79f2"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/taskdesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/desc"
+                android:layout_marginTop="5dp"
+                android:text="Enter the Job Details ......"
+                android:textSize="18sp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/employees"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/taskdesc"
+                android:layout_marginTop="20dp"
+                android:text="Employees"
+                android:textColor="#2e79f2"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:id="@+id/employeesList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/employees">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/empty_business"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/hire"
+                        />
+
+                    <TextView
+                        android:id="@+id/empty_title"
+                        android:text="Starting business ?!"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/empty_business"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="sans-serif-medium"
+                        android:paddingTop="16dp"
+                        android:textAppearance="?android:textAppearanceMedium"/>
+
+                    <TextView
+                        android:id="@+id/empty_subtitle"
+                        android:text="Let's add some brilliant employees !"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/empty_title"
+                        android:layout_centerHorizontal="true"
+                        android:fontFamily="sans-serif"
+                        android:paddingTop="8dp"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        android:textColor="#A2AAB0"/>
+
+                    <ListView
+                        android:layout_below="@+id/empty_subtitle"
+                        android:id="@+id/employees_list"
+                        android:layout_width="match_parent"
+                        android:layout_height="160dp"
+                        android:drawSelectorOnTop="true"
+                        android:orientation="vertical"
+                        android:nestedScrollingEnabled="true"
+                        ></ListView>
+
+                </RelativeLayout>
+            </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="88dp"
+                    android:padding="4dp"
+                    android:orientation="vertical"
+                    android:layout_below="@id/employeesList">
+
+                    <TextView
+                        android:id="@+id/evaluation"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:layout_marginTop="20dp"
+                        android:text="Evaluation"
+                        android:textColor="#2e79f2"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:visibility="invisible"/>
+                    <RatingBar
+                        android:id="@+id/ratingBar_task"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:isIndicator="true"
+                        android:numStars="5"
+                        android:rating="0"
+                        android:stepSize="0"
+                        android:visibility="invisible"/>
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+        </androidx.core.widget.NestedScrollView>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

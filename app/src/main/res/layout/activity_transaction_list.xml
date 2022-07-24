@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context=".khatabook.Transaction_list">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorAccent"
+        android:padding="0dp">
+<!-- SideBar Icon-->
+        <ImageView
+            android:id="@+id/sidebar_icon"
+            android:layout_width="30dp"
+            android:layout_height="25dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="7dp"
+            android:paddingLeft="5dp"
+            android:src="@drawable/sidebar_icon_24"/>
+<!-- Transaction List Status Bar-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="Transaction List"
+                android:textColor="@color/dashboardstatusbar"
+                android:textSize="20sp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="25dp"
+            android:src="@drawable/download_icon"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="7dp"/>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+<!-- Transction1-->
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/transction1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/transparent"
+                app:strokeColor="@color/colorAccent"
+                app:strokeWidth="2dp">
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+<!-- Register Icon-->
+                    <ImageView
+                        android:id="@+id/customer_image"
+                        android:layout_width="75dp"
+                        android:layout_height="60dp"
+                        android:layout_alignParentLeft="true"
+                        android:padding="5dp"
+                        android:src="@drawable/registericon"/>
+
+<!-- Customer Name-->
+                    <TextView
+                        android:id="@+id/customername"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="10dp"
+                        android:layout_toRightOf="@id/customer_image"
+                        android:maxWidth="135dp"
+                        android:text="Rahul"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"/>
+<!-- Customer PhoneNumber-->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/customername"
+                        android:layout_toRightOf="@+id/customer_image"
+                        android:gravity="end"
+                        android:text="8933084914"
+                        android:textColor="@color/black"
+                        android:textSize="10sp"/>
+<!-- Transaction Amount Credit-->
+                    <TextView
+                        android:id="@+id/transactionamount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="15dp"
+                        android:text="+21"
+                        android:textColor="@color/sucess"
+                        android:textSize="16sp"/>
+<!-- Transaction Date-->
+                    <TextView
+                        android:id="@+id/transactiondate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/transactionamount"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="15dp"
+                        android:gravity="end"
+                        android:text="09 June 2022 08:14 AM"
+                        android:textColor="@color/grey"
+                        android:textSize="10sp"/>
+
+                </RelativeLayout>
+            </com.google.android.material.card.MaterialCardView>
+<!-- Transction 2-->
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/transction2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/transparent"
+                app:strokeColor="@color/colorAccent"
+                app:strokeWidth="2dp">
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/customer_image2"
+                        android:layout_width="75dp"
+                        android:layout_height="60dp"
+                        android:layout_alignParentLeft="true"
+                        android:padding="5dp"
+                        android:src="@drawable/registericon"/>
+
+                    <TextView
+                        android:id="@+id/customername2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="10dp"
+                        android:layout_toRightOf="@id/customer_image2"
+                        android:text="Raj "
+                        android:textColor="@color/black"
+                        android:textSize="16sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/customername2"
+                        android:layout_toRightOf="@+id/customer_image2"
+                        android:gravity="end"
+                        android:text="8933084914"
+                        android:textColor="@color/black"
+                        android:textSize="10sp"/>
+
+                    <TextView
+                        android:id="@+id/transactionamount2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="15dp"
+                        android:text="-55"
+                        android:textColor="@color/warning"
+                        android:textSize="16sp"/>
+
+                    <TextView
+                        android:id="@+id/transactiondate2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/transactionamount2"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="15dp"
+                        android:gravity="end"
+                        android:text="09 June 2022 08:14 AM"
+                        android:textColor="@color/grey"
+                        android:textSize="10sp"/>
+
+                </RelativeLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/transction3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/transparent"
+                app:strokeColor="@color/colorAccent"
+                app:strokeWidth="2dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/customer_image3"
+                        android:layout_width="75dp"
+                        android:layout_height="60dp"
+                        android:layout_alignParentLeft="true"
+                        android:padding="5dp"
+                        android:src="@drawable/registericon"/>
+
+                    <TextView
+                        android:id="@+id/customername3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="10dp"
+                        android:layout_toRightOf="@id/customer_image3"
+                        android:text="Raju"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/customername3"
+                        android:layout_toRightOf="@+id/customer_image3"
+                        android:gravity="end"
+                        android:text="8933665522"
+                        android:textColor="@color/black"
+                        android:textSize="10sp"/>
+
+                    <TextView
+                        android:id="@+id/transactionamount3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="15dp"
+                        android:text="+88"
+                        android:textColor="@color/sucess"
+                        android:textSize="16sp">
+
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/transactiondate3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/transactionamount3"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="15dp"
+                        android:gravity="end"
+                        android:text="09 June 2022 08:14 AM"
+                        android:textColor="@color/grey"
+                        android:textSize="10sp">
+
+
+                    </TextView>
+                </RelativeLayout>
+            </com.google.android.material.card.MaterialCardView>
+<!-- Transaction 4-->
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/transction4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/transparent"
+                app:strokeColor="@color/colorAccent"
+                app:strokeWidth="2dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/customer_image4"
+                        android:layout_width="75dp"
+                        android:layout_height="60dp"
+                        android:layout_alignParentLeft="true"
+                        android:padding="5dp"
+                        android:src="@drawable/registericon">
+
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/customername4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="10dp"
+                        android:layout_toRightOf="@id/customer_image4"
+                        android:text="Yash"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/customername4"
+                        android:layout_toRightOf="@+id/customer_image4"
+                        android:gravity="end"
+                        android:text="9966338855"
+                        android:textColor="@color/black"
+                        android:textSize="10sp"/>
+
+                    <TextView
+                        android:id="@+id/transactionamount4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="15dp"
+                        android:text="-99"
+                        android:textColor="@color/warning"
+                        android:textSize="16sp">
+
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/transactiondate4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/transactionamount4"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="15dp"
+                        android:gravity="end"
+                        android:text="09 June 2022 08:14 AM"
+                        android:textColor="@color/grey"
+                        android:textSize="10sp">
+
+
+                    </TextView>
+                </RelativeLayout>
+            </com.google.android.material.card.MaterialCardView>
+<!-- Transction 5-->
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/transction5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/transparent"
+                app:strokeColor="@color/colorAccent"
+                app:strokeWidth="2dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/customer_image5"
+                        android:layout_width="75dp"
+                        android:layout_height="60dp"
+                        android:layout_alignParentLeft="true"
+                        android:padding="5dp"
+                        android:src="@drawable/registericon">
+
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/customername5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="10dp"
+                        android:layout_toRightOf="@id/customer_image5"
+                        android:text="yashu"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/customername5"
+                        android:layout_toRightOf="@+id/customer_image5"
+                        android:gravity="end"
+                        android:text="1144778855"
+                        android:textColor="@color/black"
+                        android:textSize="10sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/transactionamount5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="15dp"
+                        android:text="+51"
+                        android:textColor="@color/sucess"
+                        android:textSize="16sp">
+
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/transactiondate5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/transactionamount5"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="15dp"
+                        android:gravity="end"
+                        android:text="09 June 2022 08:14 AM"
+                        android:textColor="@color/grey"
+                        android:textSize="10sp">
+
+
+                    </TextView>
+                </RelativeLayout>
+            </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

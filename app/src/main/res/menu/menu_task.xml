@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_done"
+        android:title="Done"
+        android:icon="@mipmap/ic_rate"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_update"
+        android:title="Update"
+        android:icon="@mipmap/ic_edit"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/action_delete"
+        android:title="Delete"
+        android:icon="@mipmap/ic_detete"
+        app:showAsAction="always" />
+
+</menu>

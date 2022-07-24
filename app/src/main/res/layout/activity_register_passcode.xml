@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".khatabook.register_passcode">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/layout1"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="@drawable/rectangle">
+
+            <ImageView
+                android:id="@+id/user_image"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="100dp"
+                android:src="@drawable/ic_login_hero" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="250dp"
+                android:layout_marginRight="30dp"
+                android:text="Passcode"
+                android:textColor="@color/white"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+        <TextView
+            android:layout_below="@+id/layout1"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Enter the passcode"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_below="@+id/textView6"
+            android:layout_centerInParent="true"
+            android:id="@+id/textView7"
+            android:layout_width="184dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="left"
+            android:text="Set Passcode"
+            android:textColor="#EC7800"/>
+
+        <LinearLayout
+            android:layout_below="@+id/textView7"
+            android:id="@+id/layout2"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/number1"
+                android:layout_width="38dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:maxLength="1"
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:inputType="numberPassword"/>
+
+
+            <EditText
+                android:id="@+id/number2"
+                android:layout_width="38dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:inputType="numberPassword"
+                android:maxLength="1" />
+
+            <EditText
+                android:id="@+id/number3"
+                android:layout_width="38dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:inputType="numberPassword"
+                android:maxLength="1" />
+
+            <EditText
+                android:id="@+id/number4"
+                android:layout_width="38dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:inputType="numberPassword"
+                android:maxLength="1" />
+
+            <ImageView
+                android:id="@+id/set_passcode"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="7dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ic_eye_solid" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_below="@+id/layout2"
+            android:id="@+id/textView8"
+            android:layout_centerInParent="true"
+            android:layout_width="184dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="left"
+            android:text="Re-Enter Passcode"
+            android:textColor="#EC7800"/>
+
+        <LinearLayout
+            android:id="@+id/layout3"
+            android:layout_below="@+id/textView8"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/number5"
+                android:layout_width="38dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:inputType="numberPassword"
+                android:maxLength="1" />
+
+            <EditText
+                android:id="@+id/number6"
+                android:layout_width="38dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:inputType="numberPassword"
+                android:maxLength="1" />
+
+            <EditText
+                android:id="@+id/number7"
+                android:layout_width="38dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:inputType="numberPassword"
+                android:maxLength="1" />
+
+            <EditText
+                android:id="@+id/number8"
+                android:layout_width="38dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:inputType="numberPassword"
+                android:maxLength="1" />
+
+            <ImageView
+                android:id="@+id/re_passcode"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="7dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ic_eye_solid" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_below="@+id/layout3"
+            android:layout_centerInParent="true"
+            android:id="@+id/error_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/validationerror" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/redirectback"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_weight="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_baseline_arrow_right_24" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
